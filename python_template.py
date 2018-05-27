@@ -1,6 +1,6 @@
-# Author:
-# Date:
-# Purpose:
+# Author: 
+# Date: 
+# Purpose: 
 
 #---------------------
 # Packages to import -
