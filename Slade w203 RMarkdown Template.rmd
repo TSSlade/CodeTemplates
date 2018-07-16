@@ -1,0 +1,33 @@
+---
+title: "<TBD>"
+author: "Timothy S. Slade"
+date: "<TBD>"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, eval = TRUE, tidy = TRUE)
+tidy.opts=list(blank=FALSE, width.cutoff=60)
+library(here)
+here::here()
+```
+
+## Title 1
+
+**Par 1 Example Text**
+
+Lorem ipsum sic ...
+
+```{r data_import}
+load("Your filepath and filename here...")
+```
+
+## Title 2
+
+More text...
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+More text 2...
